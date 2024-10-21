@@ -947,7 +947,7 @@
                             href="{{ url('/dashboard') }}"
                             class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
                         >
-                            Dashboardd
+                            Dashboard
                         </a>
                         @else
                         <a
@@ -1030,7 +1030,7 @@
                                         <h2 class="text-xl font-semibold text-black dark:text-white">Documentation</h2>
 
                                         <p class="mt-4 text-sm/relaxed">
-                                            Laravel hasss wonderful documentation covering every aspect of the
+                                            Laravel hassss wonderful documentation covering every aspect of the
                                             framework.
                                             Whether you are a newcomer or have prior experience with Laravel, we
                                             recommend reading our documentation from beginning to end.
