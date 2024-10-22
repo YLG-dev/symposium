@@ -17,6 +17,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::webhooks('/deploy');
+Route::webhooks('deploy');
 
 require __DIR__ . '/auth.php';
