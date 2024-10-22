@@ -1031,7 +1031,7 @@
 
                                         <p class="mt-4 text-sm/relaxed">
                                             Lavavls has wonderful documentation covering every aspect of the
-                                            frameswork.
+                                            frameswovrk.
                                             Whether you are a newcomer or have prior experience with Laravel, we
                                             recommend reading our documentation from beginning to end.
                                         </p>
