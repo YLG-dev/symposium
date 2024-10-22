@@ -14,7 +14,5 @@ class ProcessWebhookJob extends SpatieProcessWebhookJob
         Process::path(__DIR__)->run('php artisan optimize:clear');
         Process::path(__DIR__)->run('php artisan migrate --force');
         Process::path(__DIR__)->run('php artisan optimize');
-        Process::path(__DIR__)->run('sudo systemctl reload apache2');
-
     }
 }
