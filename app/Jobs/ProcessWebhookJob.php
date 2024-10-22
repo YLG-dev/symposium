@@ -9,7 +9,6 @@ class ProcessWebhookJob extends SpatieProcessWebhookJob
 {
     public function handle()
     {
-        dd("pourquoi");
-        Process::path(__DIR__)->run('bash deploy.sh');
+        Process::path(base_path())->run('bash deploy.sh');
     }
 }
